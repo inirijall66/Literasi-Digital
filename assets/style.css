@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body {
+    font-family: 'Quicksand' , sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-color: #979494;*/
+    background-image: url(background.jpg);
+    background-attachment:fixed;
+ }
+#canvas{
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid silver;
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+header {
+    display: inline;
+ }
+.jumbotron {
+    font-size: 20px;
+    padding: 15px;
+    /* background-image: url(atas.jpg); */
+    text-align: center;
+    color: whitesmoke;
+ }
+ .iconhead {
+   width: 150px;
+   border-radius: 100px;
+ }
+nav {
+    background-color: #145183;
+    padding: 3px;
+    position: sticky;
+    top: 0;
+ }
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+  }
+nav a:hover {
+    color: #262626;
+  }
+main {
+    padding: 10px;
+    overflow: auto;
+ }
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #145183;
+    text-align: center;
+    font-weight: bold;
+ }
+h2 {
+    color: #404040;
+ }
+ .icon {
+   width: 40px;
+   margin: 5px;
+   float: left;
+}
+.container {
+    width: 900px;
+    padding: 50px;
+ }
+
+.img1 {
+    width: 150px;
+    float: left;
+    margin: 5px;
+ }
+ .img2 {
+   width: 200px;
+   float: right;
+   margin: 5px;
+}
+.img3 {
+   width: 200px;
+   float: right;
+   margin: 5px;
+}
+ .info_box {
+   width: 700px;
+   border-bottom: 1px solid gray;
+   padding: 3px;
+   float: right;
+}
+.info_box2 {
+   width: 600px;
+   border-bottom: 1px solid gray;
+   padding: 3px;
+   float: left;
+}
+.judul_info_box3 {
+   width: 600px;
+   border-bottom: 1px solid gray;
+   padding: 3px;
+   float: left;
+}
+.info_box3 {
+   width: 600px;
+   padding: 1px;
+   float: left;
+}
+.info_box4 {
+   width: 500px;
+   border: 1px solid gray;
+   border-radius: 10px;
+   padding: 10px;
+   float: left;
+}
+.follow_me{
+   width: 370px;
+   margin: 0 auto;
+   text-align: center;
+   font-style: oblique;
+   font-size: 12px;
+   float: right;
+}
+
+.follow_me img {
+   margin: 20px;
+   width:40px;
+}
+
+.follow_me ul li {
+   display: inline-block;
+}
+.tabel1{
+   border-collapse: collapse;
+   width: 100%;
+   margin-top: 30px;
+   /* rules : all; */
+}
+.tabel1 tr th {
+   background: #404040;
+   color: white;
+   font-weight: bold;
+}
+.tabel1 ,th ,td {
+   padding: 8px 8px;
+   border: 1px solid black;
+}
+.tabel1 tr:nth-child(odd){
+   background:#999999;
+}
+.center {
+   text-align: center;
+}
+
+    
